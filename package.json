@@ -1,0 +1,33 @@
+{
+  "name": "gulp-avif-webp-retina-html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter list"
+  },
+  "keywords": [
+    "gulp",
+    "avif",
+    "webp",
+    "retina",
+    "html",
+    "php"
+  ],
+  "author": "SergeiTsaplii",
+  "license": "MIT",
+  "description": "Replaces the <img> tag with <picture> <source> <img> in HTML files. Avif, Webp, retina, php tags and data- support.",
+  "dependencies": {
+    "plugin-error": "^2.0.1",
+    "through2": "^4.0.2"
+  },
+  "devDependencies": {
+    "assert": "^2.1.0",
+    "mocha": "^10.6.0",
+    "path": "^0.12.7",
+    "vinyl": "^3.0.0"
+  },
+  "repository": {
+    "url": "https://github.com/SergeiTsaplii/gulp-avif-webp-retina-html.git"
+  },
+  "homepage": "https://github.com/SergeiTsaplii/gulp-avif-webp-retina-html"
+}
